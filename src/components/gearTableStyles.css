@@ -1,0 +1,49 @@
+/* File: src/gearTableStyles.css */
+
+/* Styling umum untuk datatables */
+table.dataTable {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 0.95rem;
+  }
+  
+  /* Styling header tabel */
+  table.dataTable thead {
+    background-color: #d1d5db !important; /* Tailwind bg-gray-300 */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Styling baris total (tfoot) */
+  table.dataTable tfoot {
+    background-color: #fef08a !important; /* Tailwind warning kuning muda */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Zebra stripes di body tabel */
+  table.dataTable tbody tr:nth-child(even) {
+    background-color: #f9fafb; /* Tailwind gray-100 */
+  }
+  
+  table.dataTable tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Putih */
+  }
+  
+  /* Highlight saat hover */
+  table.dataTable tbody tr:hover {
+    background-color: #e0f2fe; /* Tailwind blue-100 */
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Border halus antar cell */
+  table.dataTable td, table.dataTable th {
+    border: 1px solid #e5e7eb; /* Tailwind gray-200 */
+    padding: 8px;
+  }
+  
+  /* Scroll bar saat mobile (opsional) */
+  .dataTables_wrapper {
+    overflow-x: auto;
+  }
+  
