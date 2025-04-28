@@ -3,6 +3,7 @@ import GearForm from "./components/GearForm";
 import GearTable from "./components/GearTable";
 import GearProgress from "./components/GearProgress"; // << Tambah ini
 import { levels as levelsOrder } from "./levels";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [materialData, setMaterialData] = useState([]);
@@ -90,6 +91,21 @@ function App() {
           <GearProgress total={totalMaterial} /> {/* <<< Integrasi disini */}
         </>
       )}
+      <>
+    {/* Konten kamu */}
+    <ToastContainer
+      position="top-center"
+      autoClose={2000}
+      hideProgressBar={false}
+      newestOnTop
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="colored"
+    />
+  </>
     </div>
   );
 }

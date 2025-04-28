@@ -1,0 +1,21 @@
+{
+  "title": "Upgrade Gear Calculator",
+  "existingItems": "Existing Items",
+  "calculate": "Calculate",
+  "upgradeRequirements": "Upgrade Requirements",
+  "itemRequirements": "Item Requirements",
+  "sufficient": "Sufficient",
+  "insufficient": "Insufficient",
+  "reset": "Reset",
+  "designPlans": "Design Plans",
+  "polishingSolution": "Polishing Solution",
+  "hardenedAlloy": "Hardened Alloy",
+  "lunarAmber": "Lunar Amber",
+  "from": "From",
+  "to": "To",
+  "plans": "Plans",
+  "polish": "Polish",
+  "alloy": "Alloy",
+  "amber": "Amber",
+  "svsPoints": "SvS Points"
+}

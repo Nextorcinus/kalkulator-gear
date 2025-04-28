@@ -1,0 +1,21 @@
+{
+  "title": "Calculadora de Mejora de Equipo",
+  "existingItems": "Elementos Existentes",
+  "calculate": "Calcular",
+  "upgradeRequirements": "Requisitos de Mejora",
+  "itemRequirements": "Requisitos del Artículo",
+  "sufficient": "Suficiente",
+  "insufficient": "Insuficiente",
+  "reset": "Restablecer",
+  "designPlans": "Planes de Diseño",
+  "polishingSolution": "Solución de Pulido",
+  "hardenedAlloy": "Aleación Endurecida",
+  "lunarAmber": "Ámbar Lunar",
+  "from": "Desde",
+  "to": "Hasta",
+  "plans": "Planes",
+  "polish": "Pulido",
+  "alloy": "Aleación",
+  "amber": "Ámbar",
+  "svsPoints": "Puntos SvS"
+}

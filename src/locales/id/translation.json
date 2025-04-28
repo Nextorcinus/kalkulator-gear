@@ -1,0 +1,21 @@
+{
+  "title": "Kalkulator Upgrade Gear",
+  "existingItems": "Item yang Dimiliki",
+  "calculate": "Hitung",
+  "upgradeRequirements": "Kebutuhan Upgrade",
+  "itemRequirements": "Kebutuhan Item",
+  "sufficient": "Cukup",
+  "insufficient": "Kurang",
+  "reset": "Reset",
+  "designPlans": "Rencana Desain",
+  "polishingSolution": "Larutan Pemoles",
+  "hardenedAlloy": "Paduan Diperkeras",
+  "lunarAmber": "Amber Lunar",
+  "from": "Dari",
+  "to": "Ke",
+  "plans": "Rencana",
+  "polish": "Poles",
+  "alloy": "Paduan",
+  "amber": "Amber",
+  "svsPoints": "Poin SvS"
+}
