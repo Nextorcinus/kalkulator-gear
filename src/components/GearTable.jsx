@@ -3,8 +3,6 @@ import $ from "jquery";
 import "./gearTableStyles.css";
 import dt from "datatables.net";
 
-
-
 const GearTable = ({ data }) => {
   const tableRef = useRef(null);
   const dtInstance = useRef(null);
@@ -77,20 +75,11 @@ const GearTable = ({ data }) => {
             <th>SvS Points</th>
           </tr>
         </thead>
+
         <tbody>
-          {data.map((gear, idx) => (
-            <tr key={idx}>
-              <td>{gear.gear}</td>
-              <td>{gear.from}</td>
-              <td>{gear.to}</td>
-              <td>{gear.plans}</td>
-              <td>{gear.polish}</td>
-              <td>{gear.alloy}</td>
-              <td>{gear.amber}</td>
-              <td>{gear.svs}</td>
-            </tr>
-          ))}
+          {/* Harus dikosongkan! DataTables yang isi */}
         </tbody>
+
         <tfoot>
           <tr style={{ backgroundColor: "#fef08a", fontWeight: "bold" }}>
             <th colSpan="3" style={{ textAlign: "center" }}>TOTAL</th>
