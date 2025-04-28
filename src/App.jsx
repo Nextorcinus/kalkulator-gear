@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1 className="text-2xl font-bold mb-4 text-center">Kalkulator Upgrade Gear</h1>
+      <h1 className="text-2xl font-bold mb-4 ">Calculator Upgrade Gear</h1>
       <GearForm onSubmit={handleFormSubmit} onReset={() => setSelectedGears([])} />
       
       {selectedGears.length > 0 && (

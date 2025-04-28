@@ -40,11 +40,11 @@ const GearForm = ({ onSubmit, onReset }) => {
           <div key={part} style={{ marginBottom: "1rem" }}>
             <strong>{part}</strong>
             <div style={{ display: "flex", gap: "1rem", marginTop: "0.5rem" }}>
-              <select
+              <select className="border border-gray-300 rounded px-4 py-2 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary appearance-none"
                 value={selections[part]?.from || ""}
                 onChange={(e) => handleChange(part, "from", e.target.value)}
               >
-                <option value="">From</option>
+                <option value="" >From</option>
                 {levels.map((level, idx) => (
                   <option key={idx} value={level}>
                     {level}
@@ -52,12 +52,12 @@ const GearForm = ({ onSubmit, onReset }) => {
                 ))}
               </select>
 
-              <select
+              <select className="border border-gray-300 rounded px-4 py-2 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary appearance-none"
                 value={selections[part]?.to || ""}
                 onChange={(e) => handleChange(part, "to", e.target.value)}
                 disabled={!fromValue} // disable dropdown 'to' kalau 'from' belum dipilih
               >
-                <option value="">To</option>
+                <option value="" >To</option>
                 {availableToLevels.map((level, idx) => (
                   <option key={idx} value={level}>
                     {level}

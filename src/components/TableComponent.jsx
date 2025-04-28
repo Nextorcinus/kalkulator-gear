@@ -13,19 +13,19 @@ const TableComponent = ({ selections }) => {
       <table className="table-auto border-collapse border w-full text-left">
         <thead>
           <tr>
-            <th className="border px-4 py-2">Gear</th>
-            <th className="border px-4 py-2">From</th>
-            <th className="border px-4 py-2">To</th>
-            <th className="border px-4 py-2">Material Needed</th>
+            <th className="border border-gray-300 px-4 py-2 rounded">Gear</th>
+            <th className="border  border-gray-300 px-4 py-2 rounded">From</th>
+            <th className="border border-gray-300 px-4 py-2 rounded">To</th>
+            <th className="border border-gray-300 px-4 py-2 rounded">Material Needed</th>
           </tr>
         </thead>
         <tbody>
           {Object.keys(selections).map((gear) => (
             <tr key={gear}>
-              <td className="border px-4 py-2">{gear}</td>
-              <td className="border px-4 py-2">{selections[gear].from}</td>
-              <td className="border px-4 py-2">{selections[gear].to}</td>
-              <td className="border px-4 py-2">
+              <td className="border border-gray-300 px-4 py-2">{gear}</td>
+              <td className="border border-gray-300 px-4 py-2">{selections[gear].from}</td>
+              <td className="border border-gray-300 px-4 py-2">{selections[gear].to}</td>
+              <td className="border border-gray-300 px-4 py-2">
                 {calculateMaterials(selections[gear].from, selections[gear].to)}
               </td>
             </tr>
