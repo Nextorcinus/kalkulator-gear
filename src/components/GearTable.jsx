@@ -12,31 +12,29 @@ const GearTable = ({ data }) => {
     const table = $(tableRef.current);
 
     if (dtInstance.current) {
-      dtInstance.current.clear();
-      dtInstance.current.rows.add(
-        data.map(gear => [
-          gear.gear,
-          gear.from,
-          gear.to,
-          gear.plans,
-          gear.polish,
-          gear.alloy,
-          gear.amber,
-          gear.svs
-        ])
-      );
-      dtInstance.current.draw();
-    } else {
-      dtInstance.current = table.DataTable({
-        paging: true,
-        searching: true,
-        ordering: true,
-        info: true,
-        lengthMenu: [ [10, 25, 50, 100, 150, -1], [10, 25, 50, 100, 150, "All"] ],
-        scrollX: false,
-        autoWidth: false,  
-      });
+      dtInstance.current.destroy();
+      dtInstance.current = null;
     }
+
+    dtInstance.current = table.DataTable({
+      data: data.map(gear => [
+        gear.gear,
+        gear.from,
+        gear.to,
+        gear.plans,
+        gear.polish,
+        gear.alloy,
+        gear.amber,
+        gear.svs
+      ]),
+      paging: true,
+      searching: true,
+      ordering: true,
+      info: true,
+      lengthMenu: [ [10, 25, 50, 100, 150, -1], [10, 25, 50, 100, 150, "All"] ],
+      scrollX: false,
+      autoWidth: false,
+    });
   }, [data]);
 
   const total = data.reduce(
@@ -79,11 +77,7 @@ const GearTable = ({ data }) => {
         </thead>
 
         <tbody>
-            {data.length === 0 && (
-            <tr>
-            <td colSpan="8" className="text-center py-4">{t('emptyTable')}</td>
-            </tr>
-            )}
+          {/* DataTables manages tbody rows */}
         </tbody>
 
         <tfoot>
