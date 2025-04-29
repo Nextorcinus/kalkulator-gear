@@ -1,0 +1,2216 @@
+[
+  {
+    "Type": "Cap",
+    "Level": "Green 1 Star",
+    "Plans": 0,
+    "Polish": 40,
+    "Alloy": 3800,
+    "Amber": 0,
+    "SvS Points": 6750
+  },
+  {
+    "Type": "Cap",
+    "Level": "Blue",
+    "Plans": 0,
+    "Polish": 70,
+    "Alloy": 700,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Cap",
+    "Level": "Blue 1 Star",
+    "Plans": 0,
+    "Polish": 95,
+    "Alloy": 970,
+    "Amber": 0,
+    "SvS Points": 16200
+  },
+  {
+    "Type": "Cap",
+    "Level": "Blue 2 Star",
+    "Plans": 45,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 18360
+  },
+  {
+    "Type": "Cap",
+    "Level": "Blue 3 Star",
+    "Plans": 50,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 19584
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple",
+    "Plans": 60,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple 1 Star",
+    "Plans": 70,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 11628
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple 2 Star",
+    "Plans": 40,
+    "Polish": 65,
+    "Alloy": 650,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple 3 Star",
+    "Plans": 50,
+    "Polish": 80,
+    "Alloy": 800,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple T1",
+    "Plans": 60,
+    "Polish": 95,
+    "Alloy": 1000,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple T1 1 Star",
+    "Plans": 70,
+    "Polish": 110,
+    "Alloy": 1100,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple T1 2 Star",
+    "Plans": 85,
+    "Polish": 130,
+    "Alloy": 1300,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Cap",
+    "Level": "Purple T1 3 Star",
+    "Plans": 100,
+    "Polish": 160,
+    "Alloy": 1500,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold",
+    "Plans": 40,
+    "Polish": 220,
+    "Alloy": 2200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold 1 Star",
+    "Plans": 40,
+    "Polish": 230,
+    "Alloy": 2300,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold 2 Star",
+    "Plans": 45,
+    "Polish": 250,
+    "Alloy": 2500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold 3 Star",
+    "Plans": 45,
+    "Polish": 260,
+    "Alloy": 2600,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T1",
+    "Plans": 45,
+    "Polish": 280,
+    "Alloy": 2800,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T1 1 Star",
+    "Plans": 55,
+    "Polish": 300,
+    "Alloy": 3000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T1 2 Star",
+    "Plans": 55,
+    "Polish": 320,
+    "Alloy": 3200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T1 3 Star",
+    "Plans": 55,
+    "Polish": 340,
+    "Alloy": 3400,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T2",
+    "Plans": 55,
+    "Polish": 390,
+    "Alloy": 38000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T2 1 Star",
+    "Plans": 75,
+    "Polish": 430,
+    "Alloy": 43000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T2 2 Star",
+    "Plans": 80,
+    "Polish": 460,
+    "Alloy": 4500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Gold T2 3 Star",
+    "Plans": 85,
+    "Polish": 500,
+    "Alloy": 48000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink",
+    "Plans": 85,
+    "Polish": 530,
+    "Alloy": 50000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink 1 Star",
+    "Plans": 90,
+    "Polish": 560,
+    "Alloy": 52000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink 2 Star",
+    "Plans": 95,
+    "Polish": 590,
+    "Alloy": 54000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink 3 Star",
+    "Plans": 100,
+    "Polish": 620,
+    "Alloy": 5600,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T1",
+    "Plans": 110,
+    "Polish": 670,
+    "Alloy": 59000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T1 1 Star",
+    "Plans": 115,
+    "Polish": 700,
+    "Alloy": 61000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T1 2 Star",
+    "Plans": 120,
+    "Polish": 730,
+    "Alloy": 63000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T1 3 Star",
+    "Plans": 125,
+    "Polish": 760,
+    "Alloy": 65000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T2",
+    "Plans": 135,
+    "Polish": 810,
+    "Alloy": 68000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T2 1 Star",
+    "Plans": 140,
+    "Polish": 840,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T2 2 Star",
+    "Plans": 145,
+    "Polish": 870,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T2 3 Star",
+    "Plans": 150,
+    "Polish": 900,
+    "Alloy": 74000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T3",
+    "Plans": 160,
+    "Polish": 950,
+    "Alloy": 77000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T3 1 Star",
+    "Plans": 165,
+    "Polish": 990,
+    "Alloy": 80000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T3 2 Star",
+    "Plans": 170,
+    "Polish": 1030,
+    "Alloy": 83000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Cap",
+    "Level": "Pink T3 3 Star",
+    "Plans": 180,
+    "Polish": 1070,
+    "Alloy": 86000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Green 1 Star",
+    "Plans": 0,
+    "Polish": 40,
+    "Alloy": 3800,
+    "Amber": 0,
+    "SvS Points": 6750
+  },
+  {
+    "Type": "Watch",
+    "Level": "Blue",
+    "Plans": 0,
+    "Polish": 70,
+    "Alloy": 700,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Watch",
+    "Level": "Blue 1 Star",
+    "Plans": 0,
+    "Polish": 95,
+    "Alloy": 970,
+    "Amber": 0,
+    "SvS Points": 16200
+  },
+  {
+    "Type": "Watch",
+    "Level": "Blue 2 Star",
+    "Plans": 45,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 18360
+  },
+  {
+    "Type": "Watch",
+    "Level": "Blue 3 Star",
+    "Plans": 50,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 19584
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple",
+    "Plans": 60,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple 1 Star",
+    "Plans": 70,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 11628
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple 2 Star",
+    "Plans": 40,
+    "Polish": 65,
+    "Alloy": 650,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple 3 Star",
+    "Plans": 50,
+    "Polish": 80,
+    "Alloy": 800,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple T1",
+    "Plans": 60,
+    "Polish": 95,
+    "Alloy": 1000,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple T1 1 Star",
+    "Plans": 70,
+    "Polish": 110,
+    "Alloy": 1100,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple T1 2 Star",
+    "Plans": 85,
+    "Polish": 130,
+    "Alloy": 1300,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Watch",
+    "Level": "Purple T1 3 Star",
+    "Plans": 100,
+    "Polish": 160,
+    "Alloy": 1500,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold",
+    "Plans": 40,
+    "Polish": 220,
+    "Alloy": 2200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold 1 Star",
+    "Plans": 40,
+    "Polish": 230,
+    "Alloy": 2300,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold 2 Star",
+    "Plans": 45,
+    "Polish": 250,
+    "Alloy": 2500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold 3 Star",
+    "Plans": 45,
+    "Polish": 260,
+    "Alloy": 2600,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T1",
+    "Plans": 45,
+    "Polish": 280,
+    "Alloy": 2800,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T1 1 Star",
+    "Plans": 55,
+    "Polish": 300,
+    "Alloy": 3000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T1 2 Star",
+    "Plans": 55,
+    "Polish": 320,
+    "Alloy": 3200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T1 3 Star",
+    "Plans": 55,
+    "Polish": 340,
+    "Alloy": 3400,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T2",
+    "Plans": 55,
+    "Polish": 390,
+    "Alloy": 38000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T2 1 Star",
+    "Plans": 75,
+    "Polish": 430,
+    "Alloy": 43000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T2 2 Star",
+    "Plans": 80,
+    "Polish": 460,
+    "Alloy": 4500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Gold T2 3 Star",
+    "Plans": 85,
+    "Polish": 500,
+    "Alloy": 48000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink",
+    "Plans": 85,
+    "Polish": 530,
+    "Alloy": 50000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink 1 Star",
+    "Plans": 90,
+    "Polish": 560,
+    "Alloy": 52000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink 2 Star",
+    "Plans": 95,
+    "Polish": 590,
+    "Alloy": 54000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink 3 Star",
+    "Plans": 100,
+    "Polish": 620,
+    "Alloy": 5600,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T1",
+    "Plans": 110,
+    "Polish": 670,
+    "Alloy": 59000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T1 1 Star",
+    "Plans": 115,
+    "Polish": 700,
+    "Alloy": 61000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T1 2 Star",
+    "Plans": 120,
+    "Polish": 730,
+    "Alloy": 63000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T1 3 Star",
+    "Plans": 125,
+    "Polish": 760,
+    "Alloy": 65000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T2",
+    "Plans": 135,
+    "Polish": 810,
+    "Alloy": 68000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T2 1 Star",
+    "Plans": 140,
+    "Polish": 840,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T2 2 Star",
+    "Plans": 145,
+    "Polish": 870,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T2 3 Star",
+    "Plans": 150,
+    "Polish": 900,
+    "Alloy": 74000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T3",
+    "Plans": 160,
+    "Polish": 950,
+    "Alloy": 77000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T3 1 Star",
+    "Plans": 165,
+    "Polish": 990,
+    "Alloy": 80000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T3 2 Star",
+    "Plans": 170,
+    "Polish": 1030,
+    "Alloy": 83000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Watch",
+    "Level": "Pink T3 3 Star",
+    "Plans": 180,
+    "Polish": 1070,
+    "Alloy": 86000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Green 1 Star",
+    "Plans": 0,
+    "Polish": 40,
+    "Alloy": 3800,
+    "Amber": 0,
+    "SvS Points": 6750
+  },
+  {
+    "Type": "Coat",
+    "Level": "Blue",
+    "Plans": 0,
+    "Polish": 70,
+    "Alloy": 700,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Coat",
+    "Level": "Blue 1 Star",
+    "Plans": 0,
+    "Polish": 95,
+    "Alloy": 970,
+    "Amber": 0,
+    "SvS Points": 16200
+  },
+  {
+    "Type": "Coat",
+    "Level": "Blue 2 Star",
+    "Plans": 45,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 18360
+  },
+  {
+    "Type": "Coat",
+    "Level": "Blue 3 Star",
+    "Plans": 50,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 19584
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple",
+    "Plans": 60,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple 1 Star",
+    "Plans": 70,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 11628
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple 2 Star",
+    "Plans": 40,
+    "Polish": 65,
+    "Alloy": 650,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple 3 Star",
+    "Plans": 50,
+    "Polish": 80,
+    "Alloy": 800,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple T1",
+    "Plans": 60,
+    "Polish": 95,
+    "Alloy": 1000,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple T1 1 Star",
+    "Plans": 70,
+    "Polish": 110,
+    "Alloy": 1100,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple T1 2 Star",
+    "Plans": 85,
+    "Polish": 130,
+    "Alloy": 1300,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Coat",
+    "Level": "Purple T1 3 Star",
+    "Plans": 100,
+    "Polish": 160,
+    "Alloy": 1500,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold",
+    "Plans": 40,
+    "Polish": 220,
+    "Alloy": 2200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold 1 Star",
+    "Plans": 40,
+    "Polish": 230,
+    "Alloy": 2300,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold 2 Star",
+    "Plans": 45,
+    "Polish": 250,
+    "Alloy": 2500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold 3 Star",
+    "Plans": 45,
+    "Polish": 260,
+    "Alloy": 2600,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T1",
+    "Plans": 45,
+    "Polish": 280,
+    "Alloy": 2800,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T1 1 Star",
+    "Plans": 55,
+    "Polish": 300,
+    "Alloy": 3000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T1 2 Star",
+    "Plans": 55,
+    "Polish": 320,
+    "Alloy": 3200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T1 3 Star",
+    "Plans": 55,
+    "Polish": 340,
+    "Alloy": 3400,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T2",
+    "Plans": 55,
+    "Polish": 390,
+    "Alloy": 38000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T2 1 Star",
+    "Plans": 75,
+    "Polish": 430,
+    "Alloy": 43000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T2 2 Star",
+    "Plans": 80,
+    "Polish": 460,
+    "Alloy": 4500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Gold T2 3 Star",
+    "Plans": 85,
+    "Polish": 500,
+    "Alloy": 48000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink",
+    "Plans": 85,
+    "Polish": 530,
+    "Alloy": 50000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink 1 Star",
+    "Plans": 90,
+    "Polish": 560,
+    "Alloy": 52000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink 2 Star",
+    "Plans": 95,
+    "Polish": 590,
+    "Alloy": 54000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink 3 Star",
+    "Plans": 100,
+    "Polish": 620,
+    "Alloy": 5600,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T1",
+    "Plans": 110,
+    "Polish": 670,
+    "Alloy": 59000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T1 1 Star",
+    "Plans": 115,
+    "Polish": 700,
+    "Alloy": 61000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T1 2 Star",
+    "Plans": 120,
+    "Polish": 730,
+    "Alloy": 63000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T1 3 Star",
+    "Plans": 125,
+    "Polish": 760,
+    "Alloy": 65000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T2",
+    "Plans": 135,
+    "Polish": 810,
+    "Alloy": 68000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T2 1 Star",
+    "Plans": 140,
+    "Polish": 840,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T2 2 Star",
+    "Plans": 145,
+    "Polish": 870,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T2 3 Star",
+    "Plans": 150,
+    "Polish": 900,
+    "Alloy": 74000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T3",
+    "Plans": 160,
+    "Polish": 950,
+    "Alloy": 77000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T3 1 Star",
+    "Plans": 165,
+    "Polish": 990,
+    "Alloy": 80000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T3 2 Star",
+    "Plans": 170,
+    "Polish": 1030,
+    "Alloy": 83000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Coat",
+    "Level": "Pink T3 3 Star",
+    "Plans": 180,
+    "Polish": 1070,
+    "Alloy": 86000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Green 1 Star",
+    "Plans": 0,
+    "Polish": 40,
+    "Alloy": 3800,
+    "Amber": 0,
+    "SvS Points": 6750
+  },
+  {
+    "Type": "Pants",
+    "Level": "Blue",
+    "Plans": 0,
+    "Polish": 70,
+    "Alloy": 700,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Pants",
+    "Level": "Blue 1 Star",
+    "Plans": 0,
+    "Polish": 95,
+    "Alloy": 970,
+    "Amber": 0,
+    "SvS Points": 16200
+  },
+  {
+    "Type": "Pants",
+    "Level": "Blue 2 Star",
+    "Plans": 45,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 18360
+  },
+  {
+    "Type": "Pants",
+    "Level": "Blue 3 Star",
+    "Plans": 50,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 19584
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple",
+    "Plans": 60,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple 1 Star",
+    "Plans": 70,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 11628
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple 2 Star",
+    "Plans": 40,
+    "Polish": 65,
+    "Alloy": 650,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple 3 Star",
+    "Plans": 50,
+    "Polish": 80,
+    "Alloy": 800,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple T1",
+    "Plans": 60,
+    "Polish": 95,
+    "Alloy": 1000,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple T1 1 Star",
+    "Plans": 70,
+    "Polish": 110,
+    "Alloy": 1100,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple T1 2 Star",
+    "Plans": 85,
+    "Polish": 130,
+    "Alloy": 1300,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Pants",
+    "Level": "Purple T1 3 Star",
+    "Plans": 100,
+    "Polish": 160,
+    "Alloy": 1500,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold",
+    "Plans": 40,
+    "Polish": 220,
+    "Alloy": 2200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold 1 Star",
+    "Plans": 40,
+    "Polish": 230,
+    "Alloy": 2300,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold 2 Star",
+    "Plans": 45,
+    "Polish": 250,
+    "Alloy": 2500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold 3 Star",
+    "Plans": 45,
+    "Polish": 260,
+    "Alloy": 2600,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T1",
+    "Plans": 45,
+    "Polish": 280,
+    "Alloy": 2800,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T1 1 Star",
+    "Plans": 55,
+    "Polish": 300,
+    "Alloy": 3000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T1 2 Star",
+    "Plans": 55,
+    "Polish": 320,
+    "Alloy": 3200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T1 3 Star",
+    "Plans": 55,
+    "Polish": 340,
+    "Alloy": 3400,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T2",
+    "Plans": 55,
+    "Polish": 390,
+    "Alloy": 38000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T2 1 Star",
+    "Plans": 75,
+    "Polish": 430,
+    "Alloy": 43000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T2 2 Star",
+    "Plans": 80,
+    "Polish": 460,
+    "Alloy": 4500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Gold T2 3 Star",
+    "Plans": 85,
+    "Polish": 500,
+    "Alloy": 48000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink",
+    "Plans": 85,
+    "Polish": 530,
+    "Alloy": 50000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink 1 Star",
+    "Plans": 90,
+    "Polish": 560,
+    "Alloy": 52000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink 2 Star",
+    "Plans": 95,
+    "Polish": 590,
+    "Alloy": 54000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink 3 Star",
+    "Plans": 100,
+    "Polish": 620,
+    "Alloy": 5600,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T1",
+    "Plans": 110,
+    "Polish": 670,
+    "Alloy": 59000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T1 1 Star",
+    "Plans": 115,
+    "Polish": 700,
+    "Alloy": 61000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T1 2 Star",
+    "Plans": 120,
+    "Polish": 730,
+    "Alloy": 63000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T1 3 Star",
+    "Plans": 125,
+    "Polish": 760,
+    "Alloy": 65000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T2",
+    "Plans": 135,
+    "Polish": 810,
+    "Alloy": 68000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T2 1 Star",
+    "Plans": 140,
+    "Polish": 840,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T2 2 Star",
+    "Plans": 145,
+    "Polish": 870,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T2 3 Star",
+    "Plans": 150,
+    "Polish": 900,
+    "Alloy": 74000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T3",
+    "Plans": 160,
+    "Polish": 950,
+    "Alloy": 77000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T3 1 Star",
+    "Plans": 165,
+    "Polish": 990,
+    "Alloy": 80000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T3 2 Star",
+    "Plans": 170,
+    "Polish": 1030,
+    "Alloy": 83000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Pants",
+    "Level": "Pink T3 3 Star",
+    "Plans": 180,
+    "Polish": 1070,
+    "Alloy": 86000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Green 1 Star",
+    "Plans": 0,
+    "Polish": 40,
+    "Alloy": 3800,
+    "Amber": 0,
+    "SvS Points": 6750
+  },
+  {
+    "Type": "Belt",
+    "Level": "Blue",
+    "Plans": 0,
+    "Polish": 70,
+    "Alloy": 700,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Belt",
+    "Level": "Blue 1 Star",
+    "Plans": 0,
+    "Polish": 95,
+    "Alloy": 970,
+    "Amber": 0,
+    "SvS Points": 16200
+  },
+  {
+    "Type": "Belt",
+    "Level": "Blue 2 Star",
+    "Plans": 45,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 18360
+  },
+  {
+    "Type": "Belt",
+    "Level": "Blue 3 Star",
+    "Plans": 50,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 19584
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple",
+    "Plans": 60,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple 1 Star",
+    "Plans": 70,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 11628
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple 2 Star",
+    "Plans": 40,
+    "Polish": 65,
+    "Alloy": 650,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple 3 Star",
+    "Plans": 50,
+    "Polish": 80,
+    "Alloy": 800,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple T1",
+    "Plans": 60,
+    "Polish": 95,
+    "Alloy": 1000,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple T1 1 Star",
+    "Plans": 70,
+    "Polish": 110,
+    "Alloy": 1100,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple T1 2 Star",
+    "Plans": 85,
+    "Polish": 130,
+    "Alloy": 1300,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Belt",
+    "Level": "Purple T1 3 Star",
+    "Plans": 100,
+    "Polish": 160,
+    "Alloy": 1500,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold",
+    "Plans": 40,
+    "Polish": 220,
+    "Alloy": 2200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold 1 Star",
+    "Plans": 40,
+    "Polish": 230,
+    "Alloy": 2300,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold 2 Star",
+    "Plans": 45,
+    "Polish": 250,
+    "Alloy": 2500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold 3 Star",
+    "Plans": 45,
+    "Polish": 260,
+    "Alloy": 2600,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T1",
+    "Plans": 45,
+    "Polish": 280,
+    "Alloy": 2800,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T1 1 Star",
+    "Plans": 55,
+    "Polish": 300,
+    "Alloy": 3000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T1 2 Star",
+    "Plans": 55,
+    "Polish": 320,
+    "Alloy": 3200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T1 3 Star",
+    "Plans": 55,
+    "Polish": 340,
+    "Alloy": 3400,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T2",
+    "Plans": 55,
+    "Polish": 390,
+    "Alloy": 38000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T2 1 Star",
+    "Plans": 75,
+    "Polish": 430,
+    "Alloy": 43000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T2 2 Star",
+    "Plans": 80,
+    "Polish": 460,
+    "Alloy": 4500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Gold T2 3 Star",
+    "Plans": 85,
+    "Polish": 500,
+    "Alloy": 48000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink",
+    "Plans": 85,
+    "Polish": 530,
+    "Alloy": 50000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink 1 Star",
+    "Plans": 90,
+    "Polish": 560,
+    "Alloy": 52000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink 2 Star",
+    "Plans": 95,
+    "Polish": 590,
+    "Alloy": 54000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink 3 Star",
+    "Plans": 100,
+    "Polish": 620,
+    "Alloy": 5600,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T1",
+    "Plans": 110,
+    "Polish": 670,
+    "Alloy": 59000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T1 1 Star",
+    "Plans": 115,
+    "Polish": 700,
+    "Alloy": 61000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T1 2 Star",
+    "Plans": 120,
+    "Polish": 730,
+    "Alloy": 63000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T1 3 Star",
+    "Plans": 125,
+    "Polish": 760,
+    "Alloy": 65000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T2",
+    "Plans": 135,
+    "Polish": 810,
+    "Alloy": 68000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T2 1 Star",
+    "Plans": 140,
+    "Polish": 840,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T2 2 Star",
+    "Plans": 145,
+    "Polish": 870,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T2 3 Star",
+    "Plans": 150,
+    "Polish": 900,
+    "Alloy": 74000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T3",
+    "Plans": 160,
+    "Polish": 950,
+    "Alloy": 77000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T3 1 Star",
+    "Plans": 165,
+    "Polish": 990,
+    "Alloy": 80000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T3 2 Star",
+    "Plans": 170,
+    "Polish": 1030,
+    "Alloy": 83000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Belt",
+    "Level": "Pink T3 3 Star",
+    "Plans": 180,
+    "Polish": 1070,
+    "Alloy": 86000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Green 1 Star",
+    "Plans": 0,
+    "Polish": 40,
+    "Alloy": 3800,
+    "Amber": 0,
+    "SvS Points": 6750
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Blue",
+    "Plans": 0,
+    "Polish": 70,
+    "Alloy": 700,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Blue 1 Star",
+    "Plans": 0,
+    "Polish": 95,
+    "Alloy": 970,
+    "Amber": 0,
+    "SvS Points": 16200
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Blue 2 Star",
+    "Plans": 45,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 18360
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Blue 3 Star",
+    "Plans": 50,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 19584
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple",
+    "Plans": 60,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 10800
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple 1 Star",
+    "Plans": 70,
+    "Polish": 0,
+    "Alloy": 0,
+    "Amber": 0,
+    "SvS Points": 11628
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple 2 Star",
+    "Plans": 40,
+    "Polish": 65,
+    "Alloy": 650,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple 3 Star",
+    "Plans": 50,
+    "Polish": 80,
+    "Alloy": 800,
+    "Amber": 0,
+    "SvS Points": 11610
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple T1",
+    "Plans": 60,
+    "Polish": 95,
+    "Alloy": 1000,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple T1 1 Star",
+    "Plans": 70,
+    "Polish": 110,
+    "Alloy": 1100,
+    "Amber": 0,
+    "SvS Points": 12384
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple T1 2 Star",
+    "Plans": 85,
+    "Polish": 130,
+    "Alloy": 1300,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Purple T1 3 Star",
+    "Plans": 100,
+    "Polish": 160,
+    "Alloy": 1500,
+    "Amber": 0,
+    "SvS Points": 14706
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold",
+    "Plans": 40,
+    "Polish": 220,
+    "Alloy": 2200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold 1 Star",
+    "Plans": 40,
+    "Polish": 230,
+    "Alloy": 2300,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold 2 Star",
+    "Plans": 45,
+    "Polish": 250,
+    "Alloy": 2500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold 3 Star",
+    "Plans": 45,
+    "Polish": 260,
+    "Alloy": 2600,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T1",
+    "Plans": 45,
+    "Polish": 280,
+    "Alloy": 2800,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T1 1 Star",
+    "Plans": 55,
+    "Polish": 300,
+    "Alloy": 3000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T1 2 Star",
+    "Plans": 55,
+    "Polish": 320,
+    "Alloy": 3200,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T1 3 Star",
+    "Plans": 55,
+    "Polish": 340,
+    "Alloy": 3400,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T2",
+    "Plans": 55,
+    "Polish": 390,
+    "Alloy": 38000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T2 1 Star",
+    "Plans": 75,
+    "Polish": 430,
+    "Alloy": 43000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T2 2 Star",
+    "Plans": 80,
+    "Polish": 460,
+    "Alloy": 4500,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Gold T2 3 Star",
+    "Plans": 85,
+    "Polish": 500,
+    "Alloy": 48000,
+    "Amber": 0,
+    "SvS Points": 22500
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink",
+    "Plans": 85,
+    "Polish": 530,
+    "Alloy": 50000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink 1 Star",
+    "Plans": 90,
+    "Polish": 560,
+    "Alloy": 52000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink 2 Star",
+    "Plans": 95,
+    "Polish": 590,
+    "Alloy": 54000,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink 3 Star",
+    "Plans": 100,
+    "Polish": 620,
+    "Alloy": 5600,
+    "Amber": 10,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T1",
+    "Plans": 110,
+    "Polish": 670,
+    "Alloy": 59000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T1 1 Star",
+    "Plans": 115,
+    "Polish": 700,
+    "Alloy": 61000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T1 2 Star",
+    "Plans": 120,
+    "Polish": 730,
+    "Alloy": 63000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T1 3 Star",
+    "Plans": 125,
+    "Polish": 760,
+    "Alloy": 65000,
+    "Amber": 15,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T2",
+    "Plans": 135,
+    "Polish": 810,
+    "Alloy": 68000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T2 1 Star",
+    "Plans": 140,
+    "Polish": 840,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T2 2 Star",
+    "Plans": 145,
+    "Polish": 870,
+    "Alloy": 70000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T2 3 Star",
+    "Plans": 150,
+    "Polish": 900,
+    "Alloy": 74000,
+    "Amber": 20,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T3",
+    "Plans": 160,
+    "Polish": 950,
+    "Alloy": 77000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T3 1 Star",
+    "Plans": 165,
+    "Polish": 990,
+    "Alloy": 80000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T3 2 Star",
+    "Plans": 170,
+    "Polish": 1030,
+    "Alloy": 83000,
+    "Amber": 25,
+    "SvS Points": 34416
+  },
+  {
+    "Type": "Weapon",
+    "Level": "Pink T3 3 Star",
+    "Plans": 180,
+    "Polish": 1070,
+    "Alloy": 86000,
+    "Amber": 25,
+    "SvS Points": 34416
+  }
+]
