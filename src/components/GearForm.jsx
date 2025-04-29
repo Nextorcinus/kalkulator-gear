@@ -9,15 +9,37 @@ const gearParts = ["Cap", "Watch", "Coat", "Pants", "Belt", "Weapon"];
 const GearForm = ({ onSubmit, onReset }) => { 
   const [selections, setSelections] = useState({});
 
+  // Helper to get index of level in levels array
+  const getLevelIndex = (level) => levels.indexOf(level);
+
+  // Remove global highestFromIndex calculation as per user feedback
+  // const highestFromIndex = Object.values(selections)
+  //   .map(sel => getLevelIndex(sel.from))
+  //   .filter(idx => idx >= 0)
+  //   .reduce((max, idx) => (idx > max ? idx : max), -1);
+
   const handleChange = (part, type, value) => {
-    setSelections(prev => ({
-      ...prev,
-      [part]: {
-        ...prev[part],
-        [type]: value,
-        ...(type === 'from' ? { to: "" } : {}) 
+    setSelections(prev => {
+      const newSelections = {
+        ...prev,
+        [part]: {
+          ...prev[part],
+          [type]: value,
+          ...(type === 'from' ? { to: "" } : {})
+        }
+      };
+
+      // If changing 'from', and 'to' is lower than new 'from', clear 'to'
+      if (type === 'from' && newSelections[part].to) {
+        const fromIdx = getLevelIndex(newSelections[part].from);
+        const toIdx = getLevelIndex(newSelections[part].to);
+        if (toIdx <= fromIdx) {
+          newSelections[part].to = "";
+        }
       }
-    }));
+
+      return newSelections;
+    });
   };
 
   const handleCalculate = (e) => {
@@ -34,9 +56,11 @@ const GearForm = ({ onSubmit, onReset }) => {
 
       {gearParts.map((part) => {
         const fromValue = selections[part]?.from;
+
+        // Available to levels are those after fromValue
         const availableToLevels = fromValue
-          ? levels.slice(levels.indexOf(fromValue) + 1) 
-          : levels; 
+          ? levels.slice(levels.indexOf(fromValue) + 1)
+          : levels;
 
         return (
           <div key={part} style={{ marginBottom: "1rem" }}>

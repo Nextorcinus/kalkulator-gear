@@ -12,10 +12,7 @@ function App() {
   const [selectedGears, setSelectedGears] = useState([]);
   const { t } = useTranslation();
 
-  .catch((error) => {
-    console.error("Error loading JSON:", error);
-    toast.error("Gagal memuat data material!");
-  });
+ 
 
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + "MaterialDataGear.json")
@@ -100,7 +97,6 @@ function App() {
   );
 
 
-  
   return (
     <div className="min-h-screen">
       <div className="border-b shadow-sm">
