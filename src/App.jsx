@@ -13,7 +13,7 @@ function App() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    fetch("/MaterialDataGear.json")
+    fetch(import.meta.env.BASE_URL + "MaterialDataGear.json")
       .then((response) => response.json())
       .then((data) => setMaterialData(data))
       .catch((error) => console.error("Error loading JSON:", error));
