@@ -39,7 +39,13 @@ const GearTable = ({ data }) => {
       dtInstance.current.draw();
     }, 50);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+      if (dtInstance.current) {
+        dtInstance.current.destroy();
+        dtInstance.current = null;
+      }
+    };
   }, [data]);
 
   const total = data.reduce(
@@ -59,7 +65,6 @@ const GearTable = ({ data }) => {
       <h2 className="text-2xl font-bold mb-6 text-center">{t('upgradeRequirements')}</h2>
 
       <table
-        key={data.length} 
         ref={tableRef}
         className="display stripe hover"
         style={{
