@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 function App() {
   const [materialData, setMaterialData] = useState([]);
   const [selectedGears, setSelectedGears] = useState([]);
+  const [loadingMaterialData, setLoadingMaterialData] = useState(true);
   const { t } = useTranslation();
 
  
@@ -22,8 +23,14 @@ function App() {
       }
       return response.json();
     })
-      .then((data) => setMaterialData(data))
-      .catch((error) => console.error("Error loading JSON:", error));
+      .then((data) => {
+        setMaterialData(data);
+        setLoadingMaterialData(false);
+      })
+      .catch((error) => {
+        console.error("Error loading JSON:", error);
+        setLoadingMaterialData(false);
+      });
   }, []);
 
   const handleFormSubmit = (selections) => {
