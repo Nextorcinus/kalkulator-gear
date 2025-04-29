@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const TableComponent = ({ selections }) => {
   // Contoh dummy data kalkulasi material
@@ -7,16 +8,17 @@ const TableComponent = ({ selections }) => {
     return `${Math.abs(to.length - from.length) * 5}x Lunar Amber`;
   };
 
+  const { t } = useTranslation();
   return (
     <div className="mt-8">
-      <h2 className="text-lg font-semibold mb-4">Upgrade Requirements</h2>
+      <h2 className="text-lg font-semibold mb-4">{t('upgradeRequirement')}</h2>
       <table className="table-auto border-collapse border w-full text-left">
         <thead>
           <tr>
-            <th className="border border-gray-300 px-4 py-2 rounded">Gear</th>
-            <th className="border  border-gray-300 px-4 py-2 rounded">From</th>
-            <th className="border border-gray-300 px-4 py-2 rounded">To</th>
-            <th className="border border-gray-300 px-4 py-2 rounded">Material Needed</th>
+            <th className="border border-gray-300 px-4 py-2 rounded">{t('gear')}</th>
+            <th className="border  border-gray-300 px-4 py-2 rounded">{t('from')}</th>
+            <th className="border border-gray-300 px-4 py-2 rounded">{t('to')}</th>
+            <th className="border border-gray-300 px-4 py-2 rounded">{t('materialNeeded')}</th>
           </tr>
         </thead>
         <tbody>

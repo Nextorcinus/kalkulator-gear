@@ -1,33 +1,31 @@
-// src/components/LanguageSwitcher.jsx
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
-  const handleLanguageChange = (e) => {
-    i18n.changeLanguage(e.target.value);
+  const changeLanguage = (e) => {
+    const lang = e.target.value;
+    if (i18n && typeof i18n.changeLanguage === "function") {
+      i18n.changeLanguage(lang);
+      localStorage.setItem("lang", lang);
+    } else {
+      console.error("i18n not initialized correctly.");
+    }
   };
 
   return (
-    <div style={{ marginBottom: "1rem", textAlign: "right" }}>
+    <div className="text-right p-4">
+      <label className="block text-xs font-semibold uppercase mb-1 text-gray-600">Language</label>
       <select
         value={i18n.language}
-        onChange={handleLanguageChange}
-        style={{
-          padding: "0.5rem 1rem",
-          border: "1px solid #ccc",
-          borderRadius: "4px",
-          boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
-        }}
+        onChange={changeLanguage}
+        className="border rounded px-2 py-1 text-sm"
       >
-        <option value="en">English 🇬🇧</option>
-        <option value="id">Indonesia 🇮🇩</option>
-        <option value="es">Spanish 🇪🇸</option>
-        <option value="de">German 🇩🇪</option>
-        <option value="ko">Korean 🇰🇷</option>
-        <option value="jp">Japanese 🇯🇵</option>
-        <option value="zh">Chinese 🇨🇳</option>
+        <option value="en">English</option>
+        <option value="id">Bahasa Indonesia</option>
+        <option value="es">Español</option>
+        <option value="de">Deutsch</option>
+        <option value="ko">한국어</option>
       </select>
     </div>
   );

@@ -1,19 +1,22 @@
 import { useState, useEffect } from "react";
 import GearForm from "./components/GearForm";
 import GearTable from "./components/GearTable";
-import GearProgress from "./components/GearProgress"; // << Tambah ini
+import GearProgress from "./components/GearProgress";
+import { ToastContainer, toast } from "react-toastify";
 import { levels as levelsOrder } from "./levels";
-import { ToastContainer } from "react-toastify";
+import LanguageSwitcher from "./components/LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 function App() {
   const [materialData, setMaterialData] = useState([]);
   const [selectedGears, setSelectedGears] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     fetch("/MaterialDataGear.json")
-      .then(response => response.json())
-      .then(data => setMaterialData(data))
-      .catch(error => console.error("Error loading JSON:", error));
+      .then((response) => response.json())
+      .then((data) => setMaterialData(data))
+      .catch((error) => console.error("Error loading JSON:", error));
   }, []);
 
   const handleFormSubmit = (selections) => {
@@ -42,9 +45,10 @@ function App() {
         const currentLevel = levelsOrder[i];
         const nextLevel = levelsOrder[i + 1];
 
-        const upgradeData = materialData.find(item =>
-          item.Type.toLowerCase() === gearPart.toLowerCase() &&
-          item.Level.toLowerCase() === nextLevel.toLowerCase()
+        const upgradeData = materialData.find(
+          (item) =>
+            item.Type.toLowerCase() === gearPart.toLowerCase() &&
+            item.Level.toLowerCase() === nextLevel.toLowerCase()
         );
 
         if (!upgradeData) {
@@ -66,9 +70,14 @@ function App() {
     });
 
     setSelectedGears(gearResults);
+    toast.success(t("calculation_success") || "Calculation completed successfully!");
   };
 
-  // Hitung total kebutuhan material
+  const handleReset = () => {
+    setSelectedGears([]);
+    toast.info(t("reset_success") || "Reset successful!");
+  };
+
   const totalMaterial = selectedGears.reduce(
     (acc, item) => ({
       plans: acc.plans + item.plans,
@@ -80,32 +89,38 @@ function App() {
     { plans: 0, polish: 0, alloy: 0, amber: 0, svs: 0 }
   );
 
+
+  
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1 className="text-2xl font-bold mb-4 ">Calculator Upgrade Gear</h1>
-      <GearForm onSubmit={handleFormSubmit} onReset={() => setSelectedGears([])} />
-      
-      {selectedGears.length > 0 && (
-        <>
-          <GearTable data={selectedGears} />
-          <GearProgress total={totalMaterial} /> {/* <<< Integrasi disini */}
-        </>
-      )}
-      <>
-    {/* Konten kamu */}
-    <ToastContainer
-      position="top-center"
-      autoClose={2000}
-      hideProgressBar={false}
-      newestOnTop
-      closeOnClick
-      rtl={false}
-      pauseOnFocusLoss
-      draggable
-      pauseOnHover
-      theme="colored"
-    />
-  </>
+    <div className="min-h-screen">
+      <div className="border-b shadow-sm">
+        <LanguageSwitcher />
+      </div>
+
+      <div className="max-w-4xl mx-auto p-6">
+        <h1 className="text-2xl font-bold mb-4">{t("title")}</h1>
+
+        <GearForm onSubmit={handleFormSubmit} onReset={handleReset} />
+
+        {selectedGears.length > 0 && (
+          <>
+            <GearTable data={selectedGears} />
+            <GearProgress total={totalMaterial} />
+          </>
+        )}
+      </div>
+
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
     </div>
   );
 }

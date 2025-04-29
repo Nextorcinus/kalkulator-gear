@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { levels } from "../levels";
+import { useTranslation } from "react-i18next";
+
+
 
 const gearParts = ["Cap", "Watch", "Coat", "Pants", "Belt", "Weapon"];
-
-
 
 const GearForm = ({ onSubmit, onReset }) => { 
   const [selections, setSelections] = useState({});
@@ -14,7 +15,7 @@ const GearForm = ({ onSubmit, onReset }) => {
       [part]: {
         ...prev[part],
         [type]: value,
-        ...(type === 'from' ? { to: "" } : {}) // reset 'to' kalau 'from' diganti
+        ...(type === 'from' ? { to: "" } : {}) 
       }
     }));
   };
@@ -26,15 +27,16 @@ const GearForm = ({ onSubmit, onReset }) => {
     }
   };
 
+  const { t } = useTranslation();
   return (
     <form onSubmit={handleCalculate} className="p-4 ">
-      <h2 className="text-xl font-semibold mb-4">Select Gear Levels</h2>
+      <h2 className="text-xl font-semibold mb-4">{t('selectedItemGear')}</h2>
 
       {gearParts.map((part) => {
         const fromValue = selections[part]?.from;
         const availableToLevels = fromValue
-          ? levels.slice(levels.indexOf(fromValue) + 1) // ambil semua level setelah 'from'
-          : levels; // kalau belum pilih from, tampilkan semua
+          ? levels.slice(levels.indexOf(fromValue) + 1) 
+          : levels; 
 
         return (
           <div key={part} style={{ marginBottom: "1rem" }}>
@@ -44,7 +46,7 @@ const GearForm = ({ onSubmit, onReset }) => {
                 value={selections[part]?.from || ""}
                 onChange={(e) => handleChange(part, "from", e.target.value)}
               >
-                <option value="" >From</option>
+                <option value="" >{t('from')}</option>
                 {levels.map((level, idx) => (
                   <option key={idx} value={level}>
                     {level}
@@ -55,9 +57,9 @@ const GearForm = ({ onSubmit, onReset }) => {
               <select className="border border-gray-300 rounded px-4 py-2 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary appearance-none"
                 value={selections[part]?.to || ""}
                 onChange={(e) => handleChange(part, "to", e.target.value)}
-                disabled={!fromValue} // disable dropdown 'to' kalau 'from' belum dipilih
+                disabled={!fromValue} 
               >
-                <option value="" >To</option>
+                <option value="" >{t('to')}</option>
                 {availableToLevels.map((level, idx) => (
                   <option key={idx} value={level}>
                     {level}
@@ -70,28 +72,26 @@ const GearForm = ({ onSubmit, onReset }) => {
       })}
 
       <button type="submit" className="mt-4 p-2 bg-blue-500 text-white rounded">
-        Calculate
+      {t('calculate')}
       </button>
 
       <button
-  type="button"
-  onClick={() => {
-    setSelections({
-      cap: { from: "", to: "" },
-      watch: { from: "", to: "" },
-      coat: { from: "", to: "" },
-      pants: { from: "", to: "" },
-      belt: { from: "", to: "" },
-      weapon: { from: "", to: "" },
-    });
-    onReset(); // <- ini panggil onReset supaya kosongkan tabel juga
-  }}
-  className="px-4 py-2 ml-4 bg-red-500 text-white rounded hover:bg-red-600"
->
-  Reset
-</button>
-
-
+        type="button"
+        onClick={() => {
+          setSelections({
+            Cap: { from: "", to: "" },
+            Watch: { from: "", to: "" },
+            Coat: { from: "", to: "" },
+            Pants: { from: "", to: "" },
+            Belt: { from: "", to: "" },
+            Weapon: { from: "", to: "" },
+          });
+          onReset(); 
+        }}
+        className="px-4 py-2 ml-4 bg-red-500 text-white rounded hover:bg-red-600"
+      >
+         {t('reset')}
+      </button>
     </form>
   );
 };

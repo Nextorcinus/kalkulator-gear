@@ -17,5 +17,7 @@
   "polish": "Polish",
   "alloy": "Alloy",
   "amber": "Amber",
-  "svsPoints": "SvS Points"
+  "svsPoints": "SvS Points",
+  "selectedItemGear": "Select The Item Gear",
+  "emptyTable": "No data available"
 }

@@ -1,0 +1,22 @@
+{
+  "title": "Ausrüstungs-Upgrade-Rechner",
+  "existingItems": "Vorhandene Artikel",
+  "calculate": "Berechnen",
+  "upgradeRequirements": "Upgrade-Anforderungen",
+  "itemRequirements": "Artikelanforderungen",
+  "sufficient": "Ausreichend",
+  "insufficient": "Unzureichend",
+  "reset": "Zurücksetzen",
+  "designPlans": "Designpläne",
+  "polishingSolution": "Polierlösung",
+  "hardenedAlloy": "Gehärtete Legierung",
+  "lunarAmber": "Mondbernstein",
+  "from": "Von",
+  "to": "Bis",
+  "plans": "Pläne",
+  "polish": "Politur",
+  "alloy": "Legierung",
+  "amber": "Bernstein",
+  "svsPoints": "SvS-Punkte",
+  "selectedItemGear": "Ausgewählter Gegenstand Getriebe"
+}

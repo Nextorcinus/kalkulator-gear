@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import $ from "jquery";
 import "./gearTableStyles.css";
 import dt from "datatables.net";
+import { useTranslation } from "react-i18next";
 
 const GearTable = ({ data }) => {
   const tableRef = useRef(null);
@@ -49,9 +50,10 @@ const GearTable = ({ data }) => {
     { plans: 0, polish: 0, alloy: 0, amber: 0, svs: 0 }
   );
 
+  const { t } = useTranslation();
   return (
     <div className="mt-10 overflow-x-auto">
-      <h2 className="text-2xl font-bold mb-6 text-center">Upgrade Requirements</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">{t('upgradeRequirements')}</h2>
 
       <table
         ref={tableRef}
@@ -65,24 +67,28 @@ const GearTable = ({ data }) => {
       >
         <thead className="bg-gray-300">
           <tr>
-            <th>Gear</th>
-            <th>From</th>
-            <th>To</th>
-            <th>Plans</th>
-            <th>Polish</th>
-            <th>Alloy</th>
-            <th>Amber</th>
-            <th>SvS Points</th>
+            <th>{t('gear')}</th>
+            <th>{t('from')}</th>
+            <th>{t('to')}</th>
+            <th>{t('designPlans')}</th>
+            <th>{t('polish')}</th>
+            <th>{t('Alloy')}</th>
+            <th>{t('amber')}</th>
+            <th>{t('svsPoints')}</th>
           </tr>
         </thead>
 
         <tbody>
-          {/* Harus dikosongkan! DataTables yang isi */}
+            {data.length === 0 && (
+            <tr>
+            <td colSpan="8" className="text-center py-4">{t('emptyTable')}</td>
+            </tr>
+            )}
         </tbody>
 
         <tfoot>
           <tr style={{ backgroundColor: "#fef08a", fontWeight: "bold" }}>
-            <th colSpan="3" style={{ textAlign: "center" }}>TOTAL</th>
+            <th colSpan="3" style={{ textAlign: "center" }}>{t('total')}</th>
             <th>{total.plans}</th>
             <th>{total.polish}</th>
             <th>{total.alloy}</th>

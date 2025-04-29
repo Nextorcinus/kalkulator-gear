@@ -1,0 +1,22 @@
+{
+  "title": "장비 업그레이드 계산기",
+  "existingItems": "보유 항목",
+  "calculate": "계산",
+  "upgradeRequirements": "업그레이드 요구사항",
+  "itemRequirements": "항목 요구사항",
+  "sufficient": "충분함",
+  "insufficient": "부족함",
+  "reset": "초기화",
+  "designPlans": "디자인 계획",
+  "polishingSolution": "폴리싱 솔루션",
+  "hardenedAlloy": "경화 합금",
+  "lunarAmber": "루나 앰버",
+  "from": "부터",
+  "to": "까지",
+  "plans": "계획",
+  "polish": "광택",
+  "alloy": "합금",
+  "amber": "앰버",
+  "svsPoints": "SvS 포인트",
+  "selectedItemGear": "선택한 아이템 장비"
+}
