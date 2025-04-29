@@ -8,17 +8,44 @@ const GearTable = ({ data }) => {
   const tableRef = useRef(null);
   const dtInstance = useRef(null);
 
+  // Initialize DataTable once on mount
   useEffect(() => {
     const table = $(tableRef.current);
+    dtInstance.current = table.DataTable({
+      paging: true,
+      searching: true,
+      ordering: true,
+      info: true,
+      lengthMenu: [ [10, 25, 50, 100, 150, -1], [10, 25, 50, 100, 150, "All"] ],
+      scrollX: false,
+      autoWidth: false,
+      data: [],
+      columns: [
+        { title: "Gear" },
+        { title: "From" },
+        { title: "To" },
+        { title: "Design Plans" },
+        { title: "Polish" },
+        { title: "Alloy" },
+        { title: "Amber" },
+        { title: "SvS Points" }
+      ]
+    });
 
+    return () => {
+      if (dtInstance.current) {
+        dtInstance.current.destroy();
+        dtInstance.current = null;
+      }
+    };
+  }, []);
+
+  // Update data on changes without destroying DataTable
+  useEffect(() => {
     if (dtInstance.current) {
-      dtInstance.current.destroy();
-      dtInstance.current = null;
-    }
-
-    const timer = setTimeout(() => {
-      dtInstance.current = table.DataTable({
-        data: data.map(gear => [
+      dtInstance.current.clear();
+      dtInstance.current.rows.add(
+        data.map(gear => [
           gear.gear,
           gear.from,
           gear.to,
@@ -27,25 +54,10 @@ const GearTable = ({ data }) => {
           gear.alloy,
           gear.amber,
           gear.svs
-        ]),
-        paging: true,
-        searching: true,
-        ordering: true,
-        info: true,
-        lengthMenu: [ [10, 25, 50, 100, 150, -1], [10, 25, 50, 100, 150, "All"] ],
-        scrollX: false,
-        autoWidth: false,
-      });
+        ])
+      );
       dtInstance.current.draw();
-    }, 50);
-
-    return () => {
-      clearTimeout(timer);
-      if (dtInstance.current) {
-        dtInstance.current.destroy();
-        dtInstance.current = null;
-      }
-    };
+    }
   }, [data]);
 
   const total = data.reduce(
