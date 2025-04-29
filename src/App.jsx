@@ -12,9 +12,19 @@ function App() {
   const [selectedGears, setSelectedGears] = useState([]);
   const { t } = useTranslation();
 
+  .catch((error) => {
+    console.error("Error loading JSON:", error);
+    toast.error("Gagal memuat data material!");
+  });
+
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + "MaterialDataGear.json")
-      .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
       .then((data) => setMaterialData(data))
       .catch((error) => console.error("Error loading JSON:", error));
   }, []);
