@@ -26,3 +26,9 @@
   background-color: rgb(59 130 246);
   border:1px solid rgb(209, 213, 219) !important ;
 }
+
+footer {
+  text-align: center;
+  padding:20px 0px;
+  color:orange
+}
