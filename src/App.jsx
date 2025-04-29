@@ -139,7 +139,8 @@ function App() {
 }
 
 <footer className="mt-12 text-center text-sm text-gray-500 py-6 border-t">
-&copy; {new Date().getFullYear()} Kalkulator Gear. All rights reserved.
+  &copy; {new Date().getFullYear()} {t('copyright')}
 </footer>
+
 
 export default App;
