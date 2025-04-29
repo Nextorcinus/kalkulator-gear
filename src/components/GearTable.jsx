@@ -16,25 +16,30 @@ const GearTable = ({ data }) => {
       dtInstance.current = null;
     }
 
-    dtInstance.current = table.DataTable({
-      data: data.map(gear => [
-        gear.gear,
-        gear.from,
-        gear.to,
-        gear.plans,
-        gear.polish,
-        gear.alloy,
-        gear.amber,
-        gear.svs
-      ]),
-      paging: true,
-      searching: true,
-      ordering: true,
-      info: true,
-      lengthMenu: [ [10, 25, 50, 100, 150, -1], [10, 25, 50, 100, 150, "All"] ],
-      scrollX: false,
-      autoWidth: false,
-    });
+    const timer = setTimeout(() => {
+      dtInstance.current = table.DataTable({
+        data: data.map(gear => [
+          gear.gear,
+          gear.from,
+          gear.to,
+          gear.plans,
+          gear.polish,
+          gear.alloy,
+          gear.amber,
+          gear.svs
+        ]),
+        paging: true,
+        searching: true,
+        ordering: true,
+        info: true,
+        lengthMenu: [ [10, 25, 50, 100, 150, -1], [10, 25, 50, 100, 150, "All"] ],
+        scrollX: false,
+        autoWidth: false,
+      });
+      dtInstance.current.draw();
+    }, 50);
+
+    return () => clearTimeout(timer);
   }, [data]);
 
   const total = data.reduce(
@@ -54,6 +59,7 @@ const GearTable = ({ data }) => {
       <h2 className="text-2xl font-bold mb-6 text-center">{t('upgradeRequirements')}</h2>
 
       <table
+        key={data.length} 
         ref={tableRef}
         className="display stripe hover"
         style={{
