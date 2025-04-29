@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 const gearParts = ["Cap", "Watch", "Coat", "Pants", "Belt", "Weapon"];
 
-const GearForm = ({ onSubmit, onReset }) => { 
+const GearForm = ({ onSubmit, onReset, materialDataLoaded }) => { 
   const [selections, setSelections] = useState({});
 
   // Helper to get index of level in levels array
@@ -44,7 +44,7 @@ const GearForm = ({ onSubmit, onReset }) => {
 
   const handleCalculate = (e) => {
     e.preventDefault();
-    if (Object.keys(selections).length > 0) {
+    if (Object.keys(selections).length > 0 && materialDataLoaded) {
       onSubmit(selections);
     }
   };
@@ -95,7 +95,7 @@ const GearForm = ({ onSubmit, onReset }) => {
         );
       })}
 
-      <button type="submit" className="mt-4 p-2 bg-blue-500 text-white rounded">
+      <button type="submit" className="mt-4 p-2 bg-blue-500 text-white rounded" disabled={!materialDataLoaded}>
       {t('calculate')}
       </button>
 

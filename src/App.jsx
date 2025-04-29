@@ -106,7 +106,7 @@ function App() {
       <div className="max-w-4xl mx-auto p-6">
         <h1 className="text-2xl font-bold mb-4">{t("title")}</h1>
 
-        <GearForm onSubmit={handleFormSubmit} onReset={handleReset} />
+        <GearForm onSubmit={handleFormSubmit} onReset={handleReset} materialDataLoaded={materialData.length > 0} />
 
         {selectedGears.length > 0 && (
           <>
